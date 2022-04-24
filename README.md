@@ -6,7 +6,7 @@ Our project utilised the Spotify Million Playlist Dataset obtained from https://
 
 
 
-##### Members: 
+##### 👦🏻👩🏻👦🏻Members: 
 
 
 1. Chua Jing Jie, Justin @Whatjustin
@@ -27,7 +27,7 @@ Our project utilised the Spotify Million Playlist Dataset obtained from https://
 
 
 
-##### Exploratory Data Analysis:
+##### 📊📊Exploratory Data Analysis:
 
 
 - Univariate Pair Plot
@@ -41,7 +41,7 @@ Our project utilised the Spotify Million Playlist Dataset obtained from https://
 
 
 
-##### Data Cleaning: 
+##### 🧹🧹Data Cleaning: 
 
 
 
@@ -54,7 +54,7 @@ Our project utilised the Spotify Million Playlist Dataset obtained from https://
 
 
 
-##### Advanced EDA:
+##### 📈📉Advanced EDA:
 
 
 1. Correlation Heatmap
@@ -65,7 +65,7 @@ Our project utilised the Spotify Million Playlist Dataset obtained from https://
 
 
 
-##### Tuning Techniques: 
+##### 🔧🔧Tuning Techniques: 
 
 
 - Balanced accuracy metrics
@@ -74,7 +74,7 @@ Our project utilised the Spotify Million Playlist Dataset obtained from https://
 
 
 
-##### Machine Learning Models (Balance Accuracy Score taken as metric): 
+##### 💻💻Machine Learning Models (Balance Accuracy Score taken as metric): 
 
 1. Decision Tree
 
@@ -88,7 +88,7 @@ Our project utilised the Spotify Million Playlist Dataset obtained from https://
 
 
 
-## Conclusions: 
+## 🔍🔍Conclusions: 
 
 Random Forest Classifier was the best model as it yielded the highest Balance Accuracy Score of 60.9% . However, 60.9% is still considered low and cannot be considered reliable. A justification for why the Balanced Accuracy Scores across all models were prevailingly low could be due to insufficient independent variables and weak dependent variables, along with a prevailing large disproportion between the number of popular songs and not popular songs despite us dropping songs with zero popularity causing our data to be imbalance despite us adopting measures to mitigate that problem. 
 
