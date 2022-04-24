@@ -1,1 +1,6 @@
-Github is unable to render our code with all the graphs and plots.
+##About
+Github is unable to render our code with all the graphs and plots. 
+We have separated our codes into 2:
+
+1. codewithoutoutput.ipynb: clean code without any outputs
+2. code.ipynb: code that displays all graphs and plots (download to view)
