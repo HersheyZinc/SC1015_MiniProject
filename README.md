@@ -7,11 +7,11 @@ Our project utilised the Spotify Million Playlist Dataset obtained from https://
 ##### Members: 
 
 
-Chua Jing Jie, Justin @Whatjustin
+1. Chua Jing Jie, Justin @Whatjustin
 
-Jessie Ang @jessieeang
+2. Jessie Ang @jessieeang
 
-Lim Zhe Xun @HersheyZinc
+3. Lim Zhe Xun @HersheyZinc
 
 
 ## Content
@@ -19,22 +19,22 @@ Lim Zhe Xun @HersheyZinc
 ##### Importing the Dataset:
 
 
-Using Spotify API
+- Using Spotify API
 
-Cleaning null/duplicate data
+- Cleaning null/duplicate data
 
 
 
 ##### Exploratory Data Analysis:
 
 
-Univariate Pair Plot
+- Univariate Pair Plot
 
-Univariate Box Plot
+- Univariate Box Plot
 
-Univariate Violin Plot
+- Univariate Violin Plot
 
-Univariate Histogram 
+- Univariate Histogram 
 
 
 
@@ -43,11 +43,11 @@ Univariate Histogram
 
 
 
-‘Key’ , ‘Artist’ and ‘Mode’ were dropped as variables 
+- ‘Key’ , ‘Artist’ and ‘Mode’ were dropped as variables 
 
-Songs with ‘Popularity’ score of zero were dropped 
+- Songs with ‘Popularity’ score of zero were dropped 
 
-One-Hot encoding for genres
+- One-Hot encoding for genres
 
 
 
@@ -55,34 +55,34 @@ One-Hot encoding for genres
 ##### Advanced EDA:
 
 
-Correlation Heatmap
+1. Correlation Heatmap
 
-Bar Plot
+2. Bar Plot
 
-Pair Plot
+3. Pair Plot
 
 
 
 ##### Tuning Techniques: 
 
 
-Balanced accuracy metrics
+- Balanced accuracy metrics
 
-Grid Search
+- Grid Search
 
 
 
 ##### Machine Learning Models (Balance Accuracy Score taken as metric): 
 
-Decision Tree
+1. Decision Tree
 
-Random Forest Classifier
+2. Random Forest Classifier
 
-K-Nearest Neighbours
+3. K-Nearest Neighbours
 
-Logistic Regression 
+4. Logistic Regression 
 
-Gradient Boosting
+5. Gradient Boosting
 
 
 
