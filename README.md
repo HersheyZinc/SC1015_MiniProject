@@ -4,7 +4,7 @@ Our project utilised the Spotify Million Playlist Dataset obtained from https://
 
 
 
-Members: 
+##### Members: 
 
 
 Chua Jing Jie, Justin @Whatjustin
@@ -16,7 +16,7 @@ Lim Zhe Xun @HersheyZinc
 
 ## Content
 
-Importing the Dataset:
+##### Importing the Dataset:
 
 
 Using Spotify API
@@ -25,7 +25,7 @@ Cleaning null/duplicate data
 
 
 
-Exploratory Data Analysis:
+##### Exploratory Data Analysis:
 
 
 Univariate Pair Plot
@@ -39,7 +39,7 @@ Univariate Histogram
 
 
 
-Data Cleaning: 
+##### Data Cleaning: 
 
 
 
@@ -52,7 +52,7 @@ One-Hot encoding for genres
 
 
 
-Advanced EDA:
+##### Advanced EDA:
 
 
 Correlation Heatmap
@@ -63,7 +63,7 @@ Pair Plot
 
 
 
-Tuning Techniques: 
+##### Tuning Techniques: 
 
 
 Balanced accuracy metrics
@@ -72,7 +72,7 @@ Grid Search
 
 
 
-Machine Learning Models (Balance Accuracy Score taken as metric): 
+##### Machine Learning Models (Balance Accuracy Score taken as metric): 
 
 Decision Tree
 
@@ -86,14 +86,14 @@ Gradient Boosting
 
 
 
-Conclusions: 
+## Conclusions: 
 
 Random Forest Classifier was the best model as it yielded the highest Balance Accuracy Score of 60.9% . However, 60.9% is still considered low and cannot be considered reliable. A justification for why the Balanced Accuracy Scores across all models were prevailingly low could be due to insufficient independent variables and weak dependent variables, along with a prevailing large disproportion between the number of popular songs and not popular songs despite us dropping songs with zero popularity causing our data to be imbalance despite us adopting measures to mitigate that problem. 
 
 
 Some possible improvements could be increasing the number of popular songs within the data to ensure greater balance. Adopting over or under sampling could also have a positive effect on our models if used in tandem. More independent variables should also be identified such as ‘current trends in music’ and  ‘social media’. Another possible variable could be ‘Artist’ as despite us dropping to variable so as to not introduce bias within the data, ‘Artist’ is theoretically a good metric for the popularity of a song. Furthermore, we noted that the popularity variable provided by Spotify only reflects a track’s current popularity. As such, negating the success of old songs that are past their prime. A solution to this might be to use a song’s lifetime streams as a metric for popularity or break down popularity into more subsets such as ‘region’ or ‘time period’. This would allow us to more accurately determine a song’s overall popularity regardless of the current trends.
 
-Online references : 
+## Online references : 
 
 
 https://www.investopedia.com/articles/investing/120314/spotify-makes-internet-music-make-money.asp 
