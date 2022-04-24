@@ -1,6 +1,6 @@
 # About
 
-## ❔❔Problem Definition: Is it possible to predict if a song will be popular? 
+## Problem Definition: Is it possible to predict if a song will be popular? 
 
 Our project utilised the Spotify Million Playlist Dataset obtained from https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge/dataset_files and Spotify’s web API to extract key features of the songs such as danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, durection_ms, name, popularity, artist and genre. 
 
